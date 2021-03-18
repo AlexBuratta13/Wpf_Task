@@ -30,7 +30,7 @@ namespace Wpf_Task
             int multipli = 0;
             for (int i = 0; i < 200000000; i++)
             {
-                if ((i / a) % 2 == 0)
+                if (i % a == 0)
                 {
                     multipli++;
                 }
